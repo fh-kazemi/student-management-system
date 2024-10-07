@@ -9,7 +9,7 @@ namespace StudentManagementSystem
 {
     class DBConnection
     {        
-        SqlConnection connection = new SqlConnection("Data Source=MSSQL2017;Initial Catalog=RCDATA8_61458;user=SYSADM;password=SYSADM;TrustServerCertificate=True");
+        SqlConnection connection = new SqlConnection("Data Source=***;Initial Catalog=***;user=admin;password=admin;TrustServerCertificate=True");
 
 
         public SqlConnection getConnection
